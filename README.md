@@ -1,25 +1,32 @@
-# GDDWWMECFENTRIII1A_MarionBlancher - Développer la partie front-end d’une application web - 02-08-2023
+# MarionBlancher - Développer la partie front-end d’une application web
 
-## Démarche à suivre pour le déploiement en local ou en ligne
+## Deploy Localy
 
-### Déploiement en local
-1. Clone this repository:
+### 1. Clone this repository
+```
+git clone https://github.com/Ellebay/GDDWWMECFENTRIII1A_MarionBlancher.git my-blog-name
+```
 
-git clone https://github.com/danurbanowicz/eleventy-netlify-boilerplate.git my-blog-name
-2. Navigate to the directory
-
+### 2. Navigate to the directory
+```
 cd my-blog-name
-Specifically have a look at .eleventy.js to see if you want to configure any Eleventy options differently.
+```
 
-3. Install dependencies locally
-
+### 3. Install dependencies locally
+```
 npm install @11ty/eleventy
+```
 
-5. Run Eleventy (builds the site)
+### 4. Run Eleventy (builds the site)
+```
+npm run build
+```
 
-npx @11ty/eleventy
 Or build automatically when a template changes:
+```
+npm run start
+```
 
-npx @11ty/eleventy --watch
+Open http://localhost:8080 with your favorite browser to see your blog.
 
-### Déploiement en ligne
+## Deploy to Netlify
