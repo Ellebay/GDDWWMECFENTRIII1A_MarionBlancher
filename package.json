@@ -1,0 +1,28 @@
+{
+  "name": "gddwwmecfentriii1a_marionblancher",
+  "version": "1.0.0",
+  "description": "## Démarche à suivre pour le déploiement en local ou en ligne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellebay/GDDWWMECFENTRIII1A_MarionBlancher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellebay/GDDWWMECFENTRIII1A_MarionBlancher/issues"
+  },
+  "homepage": "https://github.com/Ellebay/GDDWWMECFENTRIII1A_MarionBlancher#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^3.1.0"
+  }
+}
